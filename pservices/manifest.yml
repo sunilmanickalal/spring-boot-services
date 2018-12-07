@@ -1,0 +1,7 @@
+---
+applications:
+  - name: pservices
+    instances: 1
+    random-route: true
+    host: spring-boot-sunil-app001-cloud
+    path: target/pservices-0.0.1-SNAPSHOT.jar
